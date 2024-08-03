@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav_box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart{
+    cursor: pointer;
+}
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2){
+    padding: 10px 10px 10px 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    top:110px;
+    right:100px;
+    position: absolute;
+
+}
